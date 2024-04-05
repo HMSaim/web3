@@ -124,7 +124,8 @@ font-size: 25px;
         height: 10px ;
         width: 10px;
     }#nav2{
-        gap: 10px;
+        gap: 8px;
+        margin-right: 9px;
     }
     #nav2 h4{
     margin-top: 40px;
@@ -136,7 +137,8 @@ font-size: 25px;
     #navtwo{
        height: 50px;
         padding: 0px 5px;
-        gap: 9px;
+        gap: 8px;
+    margin-right: 9px;
     }
     #navtwo h3{
         margin-top: 20px;
