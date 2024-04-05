@@ -1,0 +1,169 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+#nav{
+    width: 100%;
+    height: 65px;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0px 40px;
+}
+#nav1{
+display: flex;
+align-items: center;
+gap: 1px;
+
+}
+
+#nav1 .elem{
+    height: 20px ;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+}#nav2{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#nav2 h4{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#nav2 h4 span{
+    color: rgb(143, 131, 115);
+margin-left: 30px;
+}
+#navtwo{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0px 70px;
+    gap: 80px;
+}
+#navtwo h3{
+    font-size: 20px;
+     font-weight: 500;
+}
+#contant{
+    width: 100%;
+    height: calc(100% - 125px);
+    
+}
+#contant-text{
+    width: 100%;
+    height: 40%;
+display: flex;
+overflow-x: auto;
+}
+#contant-text::-webkit-scrollbar{
+    height: 7px;
+
+    background-color: transparent;
+}
+#contant-text::-webkit-scrollbar-thumb{
+    background-color:orangered;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 100%;
+    width: 45%;
+    
+}
+.elem h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.elem h5{
+margin-bottom: 80px;
+font-size: 25px;
+}
+#contant-img{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+#contant-img::-webkit-scrollbar{
+    display: none;
+}
+#contant-img img{
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+@media (max-width:600px) {
+    #nav{
+        height: 55px;
+        padding: 0px 5px;
+    }
+    #nav1{
+        rotate: -90deg;
+    margin-left: -5px;
+    margin-bottom: 25px;
+    }
+    #nav1 .elem{
+        
+        height: 10px ;
+        width: 10px;
+    }#nav2{
+        gap: 10px;
+    }
+    #nav2 h4{
+    margin-top: 40px;
+        font-size: 13px;
+    }
+    #nav2 h4 span{
+    margin-left: 7px;
+    }
+    #navtwo{
+       height: 50px;
+        padding: 0px 5px;
+        gap: 9px;
+    }
+    #navtwo h3{
+        margin-top: 20px;
+        font-size: 15px;
+         font-weight: 600;
+    }
+    #contant{
+        height: calc(100% - 105px);
+    }
+    #contant-text{
+    height: 30%;
+    }
+    #contant-text::-webkit-scrollbar{
+        height: 3px;
+    }
+    .elem{
+           width: 55%;
+    }    
+    .elem h1{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .elem h5{
+    font-size: 15px;
+    }
+    #contant-img{
+    height: 70%;
+}
+    
+}
